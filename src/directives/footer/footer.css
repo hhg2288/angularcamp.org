@@ -1,0 +1,31 @@
+.copyright {
+  text-align: center;
+}
+
+.copyright .social,
+.copyright .external {
+  display: block;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+#footer .copyright .social li {
+  display: inline-block;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+#footer .copyright .social li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+@media (min-width:980px) {
+  .copyright { text-align: left; }
+
+  .copyright .social,
+  .copyright .external {
+    display: inline-block;
+  }
+}
