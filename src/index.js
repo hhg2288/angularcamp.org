@@ -13,11 +13,13 @@ import router  from 'angular-ui-router';
 
 // import application module
 import states from 'states/states.module';
+import {acFooter} from './directives/footer';
 
 // main module creation
 angular.module('angularCamp', [
   'ui.router',
-   states.name
+   states.name,
+   acFooter.name
 ]);
 
 // run forest, run!
